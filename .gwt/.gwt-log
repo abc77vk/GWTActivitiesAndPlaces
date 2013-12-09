@@ -3445,3 +3445,111 @@ Rebinding my.test.app.client.ui.Registration_RegistrationUiBinderImpl_designTime
       Compiling...
          Compilation completed in 0.04 seconds
       Removing invalidated units
+Rebinding my.test.app.client.ui.Registration.RegistrationUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.11 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.Registration_RegistrationUiBinderImpl_designTime1386609276817.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface my.test.app.client.ui.Registration_RegistrationUiBinderImpl_designTime1386609276817.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.05 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.Registration_RegistrationUiBinderImpl_designTime1386609276817_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.08 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.Registration.RegistrationUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.04 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.Registration_RegistrationUiBinderImpl_designTime1386609541902.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface my.test.app.client.ui.Registration_RegistrationUiBinderImpl_designTime1386609541902.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.00 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.Registration_RegistrationUiBinderImpl_designTime1386609541902_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.Registration.RegistrationUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.Registration_RegistrationUiBinderImpl_designTime1386609703155.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface my.test.app.client.ui.Registration_RegistrationUiBinderImpl_designTime1386609703155.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.00 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.Registration_RegistrationUiBinderImpl_designTime1386609703155_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.Registration.RegistrationUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.05 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.Registration_RegistrationUiBinderImpl_designTime1386609704953.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface my.test.app.client.ui.Registration_RegistrationUiBinderImpl_designTime1386609704953.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.00 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.Registration_RegistrationUiBinderImpl_designTime1386609704953_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.Registration.RegistrationUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.Registration_RegistrationUiBinderImpl_designTime1386609707857.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface my.test.app.client.ui.Registration_RegistrationUiBinderImpl_designTime1386609707857.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.Registration_RegistrationUiBinderImpl_designTime1386609707857_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.Registration.RegistrationUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.Registration_RegistrationUiBinderImpl_designTime1386609710295.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface my.test.app.client.ui.Registration_RegistrationUiBinderImpl_designTime1386609710295.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.00 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.Registration_RegistrationUiBinderImpl_designTime1386609710295_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.00 seconds
+      Removing invalidated units
