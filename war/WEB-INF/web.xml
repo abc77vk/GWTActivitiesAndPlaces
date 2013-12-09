@@ -8,6 +8,14 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 	<welcome-file-list>
 		<welcome-file>html/welcome.html</welcome-file>
 	</welcome-file-list>
+	<servlet>
+		<servlet-name>LoginService</servlet-name>
+		<servlet-class>my.test.app.server.service.LoginServiceImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginService</servlet-name>
+		<url-pattern>/MyApp/LoginService</url-pattern>
+	</servlet-mapping>
 
 
 </web-app>

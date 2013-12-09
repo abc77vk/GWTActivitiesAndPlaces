@@ -1956,3 +1956,408 @@ Compiling...
    Compilation completed in 0.06 seconds
 Removing invalidated units
 Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2750 units from cache.
+Compiling...
+   40% complete (ETR: 6 seconds)
+   40% complete (ETR: 6 seconds)
+   40% complete (ETR: 6 seconds)
+   40% complete (ETR: 6 seconds)
+   40% complete (ETR: 6 seconds)
+   50% complete (ETR: 6 seconds)
+   60% complete (ETR: 4 seconds)
+   70% complete (ETR: 3 seconds)
+   80% complete (ETR: 2 seconds)
+   90% complete (ETR: 1 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 13.82 seconds
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.12 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl.LoginFormUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.16 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603299274.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603299274.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.03 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603299274_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.05 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl.LoginFormUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.16 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603301176.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603301176.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603301176_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl.LoginFormUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.16 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603320430.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603320430.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603320430_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl.LoginFormUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603322254.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603322254.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603322254_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.06 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl.LoginFormUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603336809.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603336809.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603336809_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl.LoginFormUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603346836.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603346836.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603346836_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl.LoginFormUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.04 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603378637.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603378637.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603378637_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl.LoginFormUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603392165.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603392165.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.00 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603392165_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl.LoginFormUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603401064.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603401064.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.07 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603401064_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl.LoginFormUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603421977.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603421977.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603421977_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl.LoginFormUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603430292.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603430292.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.00 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603430292_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl.LoginFormUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603440217.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603440217.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.00 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603440217_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl.LoginFormUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.08 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603441522.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603441522.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603441522_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl.LoginFormUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603443242.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603443242.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603443242_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl.LoginFormUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.03 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603446731.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603446731.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603446731_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl.LoginFormUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603455292.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603455292.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603455292_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl.LoginFormUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603458356.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603458356.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603458356_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl.LoginFormUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603464665.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603464665.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.00 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603464665_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl.LoginFormUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603469356.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603469356.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386603469356_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl.LoginFormUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0.02 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386604751876.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386604751876.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.00 seconds
+      Removing invalidated units
+Rebinding my.test.app.client.ui.LoginFormViewImpl_LoginFormUiBinderImpl_designTime1386604751876_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0.01 seconds
+      Removing invalidated units

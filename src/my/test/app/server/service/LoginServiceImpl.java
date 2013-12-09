@@ -15,6 +15,7 @@
 package my.test.app.server.service;
 
 import my.test.app.client.service.LoginService;
+import my.test.app.db.ofy.OfyService;
 import my.test.app.entity.Student;
 
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
@@ -24,9 +25,16 @@ public class LoginServiceImpl extends RemoteServiceServlet implements LoginServi
 	private static final long serialVersionUID = 1L;
 
 	@Override
-	public void doLogin(Student student) {
-		if(student != null) {
-			this.getThreadLocalRequest().getSession().setAttribute("user", student);
-		}		
+	public Boolean doLogin(String login, String password) {
+		Student student = OfyService.ofy().query(Student.class).filter("login", login).filter("password", password)
+				.get();
+		if (student == null) {
+			return false;
+		}
+		
+		this.getThreadLocalRequest().getSession().setAttribute("user", student);
+		return true;
 	}
+
+	
 }

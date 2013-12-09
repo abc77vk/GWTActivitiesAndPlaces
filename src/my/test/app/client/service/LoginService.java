@@ -14,28 +14,24 @@
  *******************************************************************************/
 package my.test.app.client.service;
 
-import my.test.app.entity.Student;
-
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.user.client.rpc.RemoteService;
 import com.google.gwt.user.client.rpc.RemoteServiceRelativePath;
-import com.google.gwt.user.client.rpc.ServiceDefTarget;
 
 @RemoteServiceRelativePath("LoginService")
 public interface LoginService extends RemoteService {
 	/**
 	 * Utility class for simplifying access to the instance of async service.
+	 * @return 
 	 */
 	
-	public void doLogin(Student student);
+	public Boolean doLogin(String login,String password);
 	
 	public static class Util {
 		private static LoginServiceAsync instance;
 		public static LoginServiceAsync getInstance(){
 			if (instance == null) {
 				instance = GWT.create(LoginService.class);
-				ServiceDefTarget target = (ServiceDefTarget) instance;
-                target.setServiceEntryPoint(GWT.getModuleBaseURL() + "/login");
 			}
 			return instance;
 		}
