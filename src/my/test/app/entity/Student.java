@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 import javax.persistence.Id;
 
+import com.googlecode.objectify.Key;
 import com.googlecode.objectify.annotation.Entity;
 
 @Entity
@@ -67,8 +68,9 @@ public class Student implements Serializable {
 		return "Student [id=" + id + ", login=" + login + ", password=" + password + ", name=" + name + ", age=" + age
 				+ "]";
 	}
-	
-	
-	
+
+	public void addMark(Mark mark) {
+		mark.setStudent(new Key<Student>(Student.class, this.id));
+	}
 
 }
