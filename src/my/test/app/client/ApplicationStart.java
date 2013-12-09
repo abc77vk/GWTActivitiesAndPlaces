@@ -3,6 +3,11 @@ package my.test.app.client;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
+import my.test.app.client.mvp.AppActivityMapper;
+import my.test.app.client.mvp.AppPlaceHistoryMapper;
+import my.test.app.client.place.LoginPlace;
+import my.test.app.entity.Student;
+
 import com.google.gwt.activity.shared.ActivityManager;
 import com.google.gwt.activity.shared.ActivityMapper;
 import com.google.gwt.core.client.GWT;
@@ -13,11 +18,6 @@ import com.google.gwt.place.shared.PlaceHistoryHandler;
 import com.google.gwt.user.client.ui.RootPanel;
 import com.google.gwt.user.client.ui.SimplePanel;
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
-
-import my.test.app.client.mvp.AppActivityMapper;
-import my.test.app.client.mvp.AppPlaceHistoryMapper;
-import my.test.app.client.place.LoginPlace;
-import my.test.app.entity.Student;
 
 public class ApplicationStart extends RemoteServiceServlet {
 	

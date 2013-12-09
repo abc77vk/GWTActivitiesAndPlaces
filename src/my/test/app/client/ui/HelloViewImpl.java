@@ -1,5 +1,7 @@
 package my.test.app.client.ui;
 
+import my.test.app.client.place.GoodbyePlace;
+
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.dom.client.SpanElement;
 import com.google.gwt.event.dom.client.ClickEvent;
@@ -9,8 +11,6 @@ import com.google.gwt.uibinder.client.UiHandler;
 import com.google.gwt.user.client.ui.Anchor;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.Widget;
-
-import my.test.app.client.place.GoodbyePlace;
 
 public class HelloViewImpl extends Composite implements HelloView
 {

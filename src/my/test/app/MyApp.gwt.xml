@@ -21,6 +21,8 @@
   <replace-with class="my.test.app.client.ClientFactoryImpl">
     <when-type-is class="my.test.app.client.ClientFactory"/>
   </replace-with>
+  
+  
 
   <!-- Specify the paths for translatable code                    -->
   <source path='client'/>

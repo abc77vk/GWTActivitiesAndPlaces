@@ -1,5 +1,8 @@
 package my.test.app.client.ui;
 
+import my.test.app.db.ofy.OfyService;
+import my.test.app.entity.Student;
+
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.uibinder.client.UiBinder;
@@ -24,6 +27,7 @@ public class LoginFormViewImpl extends Composite implements LoginFormView {
 	@UiField Label passwordLable;
 	@UiField PasswordTextBox passwordInput;
 	@UiField Button loginButton;
+	@UiField Label output;
 
 	interface LoginFormUiBinder extends UiBinder<Widget, LoginFormViewImpl> {
 	}
@@ -39,9 +43,17 @@ public class LoginFormViewImpl extends Composite implements LoginFormView {
 
 	@UiHandler("loginButton")
 	void onLoginButtonClick(ClickEvent event) {
-		GWT.log("Button is presed!");
-		GWT.log("login = " + loginInput.getText());
-		GWT.log("password = " + passwordInput.getText());
+		String login = loginInput.getText();
+		String password = passwordInput.getText();
+		if (login == null || password == null || login.isEmpty() || password.isEmpty()) {
+			output.setText("Please, fill all filds.");
+			return;
+		}
+		Student student = OfyService.ofy().query(Student.class).filter("login", login).filter("password", password).get();
+		if (student == null) {
+			output.setText("No found such user.");
+		}
+		
 	}
 
 	public void setPresenter(Presenter listener) {

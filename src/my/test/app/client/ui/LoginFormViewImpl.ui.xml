@@ -34,5 +34,6 @@
 			</g:row>
 		</g:Grid>
 		<g:Button text="Login" ui:field="loginButton" styleName="{style.gwt-Button}"/>
+		<g:Label ui:field="output"/>
 	</g:HTMLPanel>
 </ui:UiBinder> 
