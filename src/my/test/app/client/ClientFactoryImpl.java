@@ -2,11 +2,11 @@ package my.test.app.client;
 
 import my.test.app.client.ui.LoginFormView;
 import my.test.app.client.ui.LoginFormViewImpl;
+import my.test.app.client.ui.MainPage;
 
 import com.google.gwt.event.shared.EventBus;
 import com.google.gwt.event.shared.SimpleEventBus;
 import com.google.gwt.place.shared.PlaceController;
-import my.test.app.client.place.MainPage;
 
 
 public class ClientFactoryImpl implements ClientFactory
@@ -37,7 +37,11 @@ public class ClientFactoryImpl implements ClientFactory
 		return LOGIN_FORM_VIEW;
 	}
 
+
+
+	@Override
 	public MainPage getMainPage() {
-		return null; // FIXME
+		// TODO Auto-generated method stub
+		return null;
 	}
 }

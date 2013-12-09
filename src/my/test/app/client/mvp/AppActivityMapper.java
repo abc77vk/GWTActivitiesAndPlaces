@@ -2,7 +2,9 @@ package my.test.app.client.mvp;
 
 import my.test.app.client.ClientFactory;
 import my.test.app.client.activity.LoginActivity;
+import my.test.app.client.activity.MainPageActivity;
 import my.test.app.client.place.LoginPlace;
+import my.test.app.client.place.MainPagePlace;
 
 import com.google.gwt.activity.shared.Activity;
 import com.google.gwt.activity.shared.ActivityMapper;
@@ -32,6 +34,8 @@ public class AppActivityMapper implements ActivityMapper {
 	public Activity getActivity(Place place) {
 		if (place instanceof LoginPlace)
 			return new LoginActivity(clientFactory, (LoginPlace) place);
+		else if (place instanceof MainPagePlace)
+			return new MainPageActivity((MainPagePlace)place, clientFactory);
 
 		return null;
 	}

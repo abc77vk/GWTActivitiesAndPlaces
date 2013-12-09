@@ -14,9 +14,9 @@
  *******************************************************************************/
 package my.test.app.client.activity;
 
-import my.test.app.client.ClientFactoryImpl;
+import my.test.app.client.ClientFactory;
 import my.test.app.client.place.MainPagePlace;
-import my.test.app.client.place.MainPage;
+import my.test.app.client.ui.MainPage;
 
 import com.google.gwt.activity.shared.AbstractActivity;
 import com.google.gwt.event.shared.EventBus;
@@ -31,14 +31,14 @@ public class MainPageActivity extends AbstractActivity implements MainPage.Prese
 	 * Used to obtain views, eventBus, placeController.
 	 * Alternatively, could be injected via GIN.
 	 */
-	private ClientFactoryImpl clientFactory;
+	private ClientFactory clientFactory;
 
 	/**
 	 * Sample property.
 	 */
 	private String name;
 
-	public MainPageActivity(MainPagePlace place, ClientFactoryImpl clientFactory) {
+	public MainPageActivity(MainPagePlace place, ClientFactory clientFactory) {
 		this.name = place.getName();
 		this.clientFactory = clientFactory;
 	}
