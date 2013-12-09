@@ -16,6 +16,14 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 		<servlet-name>LoginService</servlet-name>
 		<url-pattern>/MyApp/LoginService</url-pattern>
 	</servlet-mapping>
+	<servlet>
+		<servlet-name>Registration</servlet-name>
+		<servlet-class>my.test.app.server.service.RegistrationImpl</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Registration</servlet-name>
+		<url-pattern>/MyApp/Registration</url-pattern>
+	</servlet-mapping>
 
 
 </web-app>

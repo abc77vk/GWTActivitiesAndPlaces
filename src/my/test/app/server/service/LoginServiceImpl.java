@@ -33,6 +33,8 @@ public class LoginServiceImpl extends RemoteServiceServlet implements LoginServi
 		}
 		
 		this.getThreadLocalRequest().getSession().setAttribute("user", student);
+		
+		
 		return true;
 	}
 

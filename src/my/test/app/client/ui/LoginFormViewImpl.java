@@ -1,5 +1,7 @@
 package my.test.app.client.ui;
 
+import javax.persistence.criteria.Root;
+
 import my.test.app.client.service.LoginService;
 import my.test.app.db.ofy.OfyService;
 import my.test.app.entity.Student;
@@ -15,6 +17,7 @@ import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.Grid;
 import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.PasswordTextBox;
+import com.google.gwt.user.client.ui.RootPanel;
 import com.google.gwt.user.client.ui.TextBox;
 import com.google.gwt.user.client.ui.Widget;
 
@@ -66,7 +69,8 @@ public class LoginFormViewImpl extends Composite implements LoginFormView {
 				if (result) {
 					output.setText("Login ok!");				
 				} else {
-					output.setText("User not found!");	
+					output.setText("User not found!!!");
+					
 				}
 				
 			}
@@ -82,5 +86,10 @@ public class LoginFormViewImpl extends Composite implements LoginFormView {
 
 	public void setPresenter(Presenter listener) {
 		this.listener = listener;
+	}
+	@UiHandler("registrationButton")
+	void onRegistrationButtonClick(ClickEvent event) {
+		RootPanel.get("container").clear();
+		RootPanel.get("container").add(new Registration());
 	}
 }
