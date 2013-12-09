@@ -6,6 +6,7 @@ import my.test.app.client.ui.LoginFormViewImpl;
 import com.google.gwt.event.shared.EventBus;
 import com.google.gwt.event.shared.SimpleEventBus;
 import com.google.gwt.place.shared.PlaceController;
+import my.test.app.client.place.MainPage;
 
 
 public class ClientFactoryImpl implements ClientFactory
@@ -36,4 +37,7 @@ public class ClientFactoryImpl implements ClientFactory
 		return LOGIN_FORM_VIEW;
 	}
 
+	public MainPage getMainPage() {
+		return null; // FIXME
+	}
 }
